@@ -1,0 +1,58 @@
+html {
+  background-color: rosybrown;
+  padding: 10px;
+}
+
+body {
+  background-color: seagreen;
+  padding: 10px;
+  margin: 0;
+}
+
+.parent {
+  background-color: slateblue;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  height: 400px;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.div1 {
+  background-color: springgreen;
+  margin: 5px;
+}
+
+.div2 {
+  background-color: springgreen;
+  margin: 5px;
+  width: 150px;
+  font-size: 30px;
+}
+
+.div3 {
+  background-color: springgreen;
+  margin: 5px;
+  height: 150px;
+}
+
+.div4 {
+  background-color: springgreen;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.div5 {
+  background-color: springgreen;
+  width: 200px;
+}
+
+.div6 {
+  background-color: springgreen;
+  margin: 5px;
+  width: 200px;
+}

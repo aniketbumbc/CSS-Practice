@@ -1,0 +1,15 @@
+h2 {
+  color: red;
+}
+
+li:first-child {
+  color: rgb(158, 158, 25);
+}
+
+textarea ~ button {
+  color: rgb(144, 114, 214);
+}
+
+ul > li {
+  color: rebeccapurple;
+}
