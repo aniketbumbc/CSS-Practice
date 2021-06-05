@@ -1,0 +1,15 @@
+.box-orange {
+  background: orange;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 100px; /*100px from top relative to its old position*/
+  left: 100px;
+}
+
+.box-blue {
+  background: rgb(143, 197, 216);
+  height: 100px;
+  width: 100px;
+  position: static;
+}
