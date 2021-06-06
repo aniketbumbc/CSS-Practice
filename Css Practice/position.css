@@ -1,15 +1,31 @@
-.box-orange {
-  background: orange;
-  height: 100px;
-  width: 100px;
-  position: relative;
-  top: 100px; /*100px from top relative to its old position*/
-  left: 100px;
+html {
+  background-color: lightcoral;
+  padding: 10px;
 }
 
-.box-blue {
-  background: rgb(143, 197, 216);
-  height: 100px;
-  width: 100px;
-  position: static;
+body {
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  top: 100px;
+}
+
+header {
+  background-color: magenta;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  background-color: magenta;
+  margin: 10px;
+  position: relative;
+  top: 100px;
+}
+
+footer {
+  background-color: magenta;
+  margin: 10px;
 }
