@@ -1,0 +1,38 @@
+h2 {
+  color: hotpink;
+}
+
+.box {
+  border: 3px solid rgb(35, 216, 35);
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  border: 3px solid rgb(128, 0, 17);
+  background-color: grey;
+  height: 190px;
+}
+
+#boxmain3 {
+  /* relative it;s position */
+  /* position: fixed;
+  bottom: 4px;
+  right: 4px; */
+
+  position: sticky;
+  top: 4px;
+}
+
+#box4 {
+  /* relative it;s position */
+  position: fixed;
+  bottom: 4px;
+  right: 4px;
+
+  /* position: sticky;
+    top: 4px; */
+}
